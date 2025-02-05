@@ -11,7 +11,7 @@ pipeline {
         stage('Run Script') {
             steps {
                 // Command to run your caesarCipher.py script
-                sh 'python caesarCipher.py'
+                sh 'python3 caesarCipher.py'
             }
         }
 
