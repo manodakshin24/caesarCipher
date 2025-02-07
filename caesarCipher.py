@@ -8,7 +8,7 @@ def caesar_cipher(text, shift, direction):
             result += chr((ord(char) - ascii_offset + shift_amount) % 26 + ascii_offset)
         else:
             result += char  # Non-alphabet characters are added directly
-    
+        
     return result
 
 # Encode a message
